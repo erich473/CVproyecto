@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <audio controls autoplay src="FMS (Prod. KrossBeats).mp3"></audio>
+
+    <title>Proyecto Integrador</title>
+</head>
+<body>
+
+    <button id="cambioFondo" onclick="cambiarFondoCV()">Cambiar fondo de CV</button>
+        <div>
+            <h1>Curriculum Vitae</h1>
+            <h2>Solicito Trabajo</h2>
+        </div>
+
+
+    <main>
+        
+          <img class="imagenRandom" src="goku-super-saiyajin-1.jpg" width="200" height="200" alt="Imagen aleatoria.">
+          <ul>
+            <li>
+               <strong>Nombre: </strong>
+               <em>Goku Diaz</em>
+            </li>
+            <li>
+                <strong>Fecha de nacimiento</strong>
+                03/09/1988
+            </li>
+            <li>
+                <strong>Ciudad - Provincia: </strong>
+                Rio Cuarto - Cordoba
+            </li>
+          </ul>  
+
+          <div><progress></progress></div>
+
+          <p>
+            "Busco trabajo relacionado con el area de sistemas, principalmente
+            en manejo de sofware, front end, etc. Cuento tambien con conocimientos tecnicos 
+            en reparacion de PC e instalaciones de redes informaticas. Me adapto a cualquier ambito laboral.
+            Puedo hacer horario full time"
+          </p>
+
+          <div><progress 30px></progress></div>
+
+          <h2> Experiencias Laborales: </h2>
+          <ul>
+            <li>
+                "Desarrollador independiente especializado en front end"
+            </li> 
+            <li>
+                "Tecnico independiente en reparacion de PC e instalacion de redes"
+            </li>
+          </ul>
+
+          <div><progress></progress></div>
+
+          <h2> Estudios Realizados: </h2>
+          <ul>
+            <li>
+                
+                "Analista de sistemas - Univercidad nacional de Rio Cuarto"
+            </li>
+            <li>
+                
+                "Curso de Tecnico en Reparacion de PC e Instalaciones de Redes"
+            </li>
+            <li>
+                
+                "Curso de programacion: front end"
+            </li>
+          </ul>
+
+          <div><progress></progress></div>
+
+        <h2 id="contacto">Datos de contacto: </h2>
+        <div id="listacontacto">
+            <button id="cambioTelefono" onclick="cambiarTelefono()">Click: TELEFONO</button>
+            <button id="cambioLocalidad" onclick="cambiarLocalidad()">Click: LOCALIDAD</button>
+            <button id="cambioDireccion" onclick="cambiarDireccion()">Click: DIRECCION</button>
+            <button id="cambioCodigoPostal" onclick="cambiarCodigoPostal()">Click: CODIGO POSTAL</button>
+            <button id="cambioEmail" onclick="cambiarEmail()">Click: E-MAIL</button>
+        </div>
+
+        <div><progress></progress></div>
+
+    </main>
+    <footer>
+        <p>Muchas Gracias!!</p>
+    </footer>
+    <script src="funcion.js"></script>
+</body>
+</html>
